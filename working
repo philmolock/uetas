@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UET AS Demo - Working Page</title>
+</head>
+<body>
+	<h1>Account Specialist - UET Training Demo Site</h1>
+	<ol>
+		<li>Install the UET Helper Addon (works with Chrome or Edge)<a href="https://chrome.google.com/webstore/detail/uet-tag-helper-by-bing-ad/naijndjklgmffmpembnkfbcjbognokbf?hl=en">UET Tag Helper</a>  (browser extension that works with Edge and Chrome)</li>
+		<li>Refresh this page</li>
+		<li>Click on the UET Tag Helper addon (top right of the browser) to see UET details</li>
+		<li>Right click and inspect page source to see the UET code</li>
+	</ol>
+	<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"25024185"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</body>
+</html>
