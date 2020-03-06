@@ -24,10 +24,12 @@
 		<li>A custom event is only sending currency, but no amount for revenue! This advertiser would be missing out on properly reporting variable revenue.</li>
 	</ul>
 	<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"25024713"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
-	
+	</script>
+	<script>
 	window.uetq = window.uetq || [];
 	window.uetq.push('event', '', {'currency': 100});
-	window.uetq.push('event', '', {'ecomm_pagetype': 'homepage'});
+	window.uetq.push ('event', '', {'ecomm_prodid': '123456', 'ecomm_pagetype': 'home'});
+	window.uetq.push('event', '', {'ecomm_pagetype': 'home'});
 	window.uetq.push('event', '', {'ecomm_pagetype': 'orderForm'});
 	window.uetq.push('event', '', {'ecomm_pagetype': 'orderForm'});
 	window.uetq.push('event', '', {'ecomm_prodid': ''});
